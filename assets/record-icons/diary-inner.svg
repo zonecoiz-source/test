@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 103">
+<path id="&#231;&#159;&#169;&#229;&#189;&#162;&#229;&#164;&#135;&#228;&#187;&#189; 3" fill-rule="evenodd" clip-rule="evenodd" d="M10.8369 0C11.4793 0 12 0.520725 12 1.16307V3.93869C12 4.39798 11.4926 4.67602 11.1055 4.42884L10.313 3.92279C10.1221 3.80093 9.87788 3.80093 9.68703 3.92279L8.8945 4.42884C8.5074 4.67602 8 4.39798 8 3.93869V1.16307C8 0.520725 8.52073 0 9.16308 0H10.8369V0Z" fill="url(#paint0_linear_0_4)"/>
+<path id="Rectangle 115" fill-rule="evenodd" clip-rule="evenodd" d="M11 9.8125C11.5523 9.8125 12 10.2602 12 10.8125C12 11.3648 11.5523 11.8125 11 11.8125H0.999996C0.44772 11.8125 0 11.3648 0 10.8125C0 10.2602 0.44772 9.8125 0.999996 9.8125H11V9.8125Z" fill="url(#paint1_linear_0_4)"/>
+<path id="Rectangle 116" fill-rule="evenodd" clip-rule="evenodd" d="M11 14C11.5523 14 12 14.4477 12 15C12 15.5523 11.5523 16 11 16H0.999996C0.44772 16 0 15.5523 0 15C0 14.4477 0.44772 14 0.999996 14H11V14Z" fill="url(#paint2_linear_0_4)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_4" x1="8" y1="0" x2="8" y2="5" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#FFE5C2"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_4" x1="0" y1="9.8125" x2="0" y2="11.8125" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#FFE5C2"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_4" x1="0" y1="14" x2="0" y2="16" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#FFE5C2"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <title>记录页demo</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f6fb;
+      --card: rgba(255, 255, 255, 0.94);
+      --line: rgba(31, 35, 53, 0.08);
+      --text: #1f2335;
+      --muted: #707487;
+      --accent: #ff4d88;
+      --accent-soft: rgba(255, 77, 136, 0.12);
+      --shadow: 0 16px 40px rgba(31, 35, 53, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "PingFang SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, rgba(255, 77, 136, 0.14), transparent 30%),
+        linear-gradient(180deg, #fcfcfe 0%, var(--bg) 100%);
+    }
+
+    main {
+      width: min(100%, 560px);
+      margin: 0 auto;
+      padding: 32px 20px 40px;
+    }
+
+    h1 {
+      margin: 0 0 20px;
+      font-size: 28px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    .list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .entry {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 72px;
+      padding: 18px 18px 18px 20px;
+      border-radius: 18px;
+      text-decoration: none;
+      color: inherit;
+      background: var(--card);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .entry:active {
+      transform: scale(0.995);
+    }
+
+    .label {
+      font-size: 17px;
+      line-height: 1.35;
+      font-weight: 600;
+    }
+
+    .arrow {
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent);
+      background: var(--accent-soft);
+      font-size: 18px;
+      font-weight: 700;
+      flex: none;
+    }
+
+    @media (max-width: 420px) {
+      main {
+        padding: 24px 16px 32px;
+      }
+
+      h1 {
+        font-size: 25px;
+      }
+
+      .entry {
+        min-height: 68px;
+        border-radius: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>记录页demo</h1>
+    <div class="list">
+      <a class="entry" href="./record-only.html">
+        <span class="label">方案1 一次轮播</span>
+        <span class="arrow" aria-hidden="true">></span>
+      </a>
+      <a class="entry" href="./record-three.html">
+        <span class="label">方案2 三次轮播</span>
+        <span class="arrow" aria-hidden="true">></span>
+      </a>
+      <a class="entry" href="./record-blood.html">
+        <span class="label">方案3 血量</span>
+        <span class="arrow" aria-hidden="true">></span>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
